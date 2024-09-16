@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новини - Бібліотека Книг</title>
+</head>
+<body>
+
+    <!-- Навігація -->
+    <header>
+        <nav>
+            <ul style="list-style: none; display: flex; justify-content: center; padding: 0;">
+                <li style="margin: 0 15px;"><a href="aboutme.html">Головна</a></li>
+                <li style="margin: 0 15px;"><a href="aboutfirm.html">Про нас</a></li>
+                <li style="margin: 0 15px;"><a href="news.html">Новини</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Розділ новин -->
+    <section class="news-section">
+        <h1>Новини фірми "Бібліотека Книг"</h1>
+
+        <!-- Стаття новин -->
+        <article title="Оновлення книжкових колекцій">
+            <h2>Оновлення книжкових колекцій</h2>
+            <p>Ми раді повідомити про надходження нових рідкісних видань до нашої бібліотеки. Тепер у нас доступні нові колекції відомих авторів!</p>
+            <time cite="https://booklibrary.com/news/new-books" lang="uk">10 вересня 2024</time>
+            <img src="https://example.com/newbooks.png" alt="Нова колекція книг" ismap width="300">
+        </article>
+        <hr noshade color="black">
+        <!-- Друга стаття новин -->
+        <article title="Спеціальні знижки на книги">
+            <h2>Спеціальні знижки на книги</h2>
+            <p>Цього місяця наші клієнти отримують спеціальні знижки на всі класичні видання! 
+                <mark datetime="2024-09-15" id="discount" title="Знижка діє до 15 вересня 2024">Акція діє до 15 вересня 2024</mark>.
+            </p>
+            <time cite="https://booklibrary.com/news/discounts" lang="uk">5 вересня 2024</time>
+            <img src="https://example.com/discounts.png" alt="Знижки на книги" ismap width="300">
+        </article>
+        <hr noshade color="black">
+        <!-- Додаткова новина -->
+        <article title="Новий розділ дитячої літератури">
+            <h2>Відкриття розділу дитячої літератури</h2>
+            <p>Ми раді повідомити про відкриття нового розділу дитячої літератури! Тепер доступні книги для молодших класів.</p>
+            <time cite="https://booklibrary.com/news/kids" lang="uk">1 вересня 2024</time>
+            <img src="Дитячі книги.jpg" alt="Дитячі книги" ismap width="300">
+        </article>
+
+        <!-- Карта з областями -->
+        <map name="libraryMap">
+            <area shape="rect" coords="34,44,270,350" href="https://example.com/books" alt="Книги">
+            <area shape="circle" coords="300,150,60" href="https://example.com/discounts" alt="Знижки">
+        </map>
+        <img src="https://example.com/map.png" usemap="#libraryMap" alt="Дитячі книги" width="400" height="300">
+
+        <!-- Використання тегів sup, sub, bdo, span, wbr -->
+        <p>Нові <bdo lang="en">спеціальні видання</bdo> для молодших класів вже доступні! Ці книги були розроблені спеціально для освітніх цілей.</p>
+        <p><span title="Інформація про автора">Автор: Джон Доу</span></p>
+        <p>Перші книги будуть доставлені<wbr> сьогодні!</p>
+
+    </section>
+    <hr noshade color="black">
+    <!-- Footer -->
+    <footer align="center">
+        <pre>
+Контактний телефон: +38 (044) 123-45-67
+Електронна пошта: info@booklibrary.com
+Графік роботи: Пн-Пт 9:00 - 18:00
+        </pre>
+        <!-- Використання <address> з атрибутами lang, class -->
+        <address lang="uk" class="company-address">
+            вул. Книжкова, 25, Київ, Україна.
+        </address>
+    </footer>
+
+</body>
+</html>
