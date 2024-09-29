@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Про компанію "Бібліотека Книг"</title>
+    <link rel="stylesheet" href="../css/abourfirm.css">
 </head>
 <body>
-
-   <!-- Навігація -->
-   <header>
-    <nav>
-        <ul style="list-style: none; padding: 0; display: flex; justify-content: center;">
-            <li style="margin: 0 15px;"><a href="aboutme.html">Головна</a></li>
-            <li style="margin: 0 15px;"><a href="aboutfirm.html">Про нас</a></li>
-            <li style="margin: 0 15px;"><a href="news.html">Новини</a></li>
-        </ul>
-    </nav>
-</header>
-
+    <!-- Навігація -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="aboutme.html">Головна</a></li>
+                <li><a href="aboutfirm.html">Про нас</a></li>
+                <li><a href="news.html">Новини</a></li>
+            </ul>
+        </nav>
+    </header>
     <!-- Інформація про компанію -->
     <h1>Про компанію "Бібліотека Книг"</h1>
 
@@ -26,12 +25,12 @@
         Наша компанія <abbr id="lib" title="Віртуальна бібліотека рідкісних книг">Бібліотека Книг</abbr> спеціалізується на продажі рідкісних книг різних жанрів.
     </p>
     
-    <!-- Використання <q> з атрибутами lang, class, style -->
+    <!-- Використання <q> з атрибутами lang, class -->
     <p>
         Наше гасло: <q lang="uk" class="quote">"Читай більше, живи краще!"</q>
     </p>
 
-    <!-- Використання другого <abbr> з атрибутами dir, style -->
+    <!-- Використання другого <abbr> з атрибутами dir -->
     <p>
         Основний напрямок компанії - <abbr dir="ltr">наукова фантастика</abbr>, але ми також пропонуємо класичні та сучасні романи.
     </p>
@@ -45,7 +44,9 @@
     <p>
         Каталог включає: <samp class="book-list" lang="uk">"Книга 1", "Книга 2", "Книга 3", "Наукова фантастика 2023", "Історичні події 21 століття"</samp>.
     </p>
-    <hr noshade color="black">
+
+    <hr>
+
     <!-- Додаткові послуги -->
     <h2>Наші послуги</h2>
     <ul>
@@ -55,8 +56,10 @@
     </ul>
 
     <!-- Використання <img> з атрибутами src, alt, width, height -->
-    <img src="https://example.com/library-logo.png" alt="Логотип Бібліотеки Книг" width="200" height="150">
-    <hr noshade color="black">
+    <img src="data:image/jpeg;base64,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" alt="Логотип Бібліотеки Книг" width="200" height="150">
+
+    <hr>
+
     <!-- Новини -->
     <h2>Останні новини</h2>
     <p>У нас з'явились нові надходження літератури у жанрі <abbr dir="ltr">фантастика</abbr>! Завітайте до нашого каталогу.</p>
@@ -68,17 +71,16 @@
         Ми співпрацюємо з багатьма видавництвами, щоб надавати найкращі книги нашим клієнтам. За останні роки наша <strong lang="uk" class="highlight">бібліотека</strong> зросла на <abbr title="Кількість нових книг" dir="ltr">150%</abbr>.
     </p>
 
-    <footer align="center">
+    <footer>
         <pre>
 Контактний телефон: +38 (044) 123-45-67
 Електронна пошта: info@booklibrary.com
 Графік роботи: Пн-Пт 9:00 - 18:00
         </pre>
-        <!-- Використання <address> з атрибутами lang, class -->
-            
         <address lang="uk" class="company-address">
             вул. Книжкова, 25, Київ, Україна.
         </address>
     </footer>
+
 </body>
 </html>

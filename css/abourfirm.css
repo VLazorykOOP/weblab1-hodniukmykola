@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 15px 0;
+    text-align: center; /* вирівнює  header по центру */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; 
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+
+
+h1, h2 {
+    text-align: center;
+    color: #2980b9;
+    
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+
+p, ul {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 40px;
+}
+
+b, strong {
+    color: #27ae60;
+}
+
+q {
+    font-style: italic;
+    color: #8e44ad;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 20px 0;
+}
+
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer pre, footer address {
+    font-size: 0.9em;
+    color: #bdc3c7;
+}
+
+address {
+    font-style: normal;
+}
