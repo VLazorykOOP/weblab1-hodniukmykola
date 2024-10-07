@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця бібліотеки</title>
+    <link rel="stylesheet" href="../css/spesky.css" title="Основні стилі">
+</head>
+<body>
+    <header>
+        <nav id="main-navigation" title="Головне меню сайту">
+            <ul type="square">
+                <li title="Меню"><a href="menu.html" title="Перейти до меню">Меню</a></li>
+                <li title="Головна"><a href="aboutme.html" title="Перейти на головну">Головна</a></li>
+                <li title="Про нас"><a href="aboutfirm.html" title="Дізнатися про нас">Про нас</a></li>
+                <li title="Новини"><a href="news.html" title="Останні новини">Новини</a></li>
+                <li title="Оренда та купівля"><a href="spesky.html" title="Оренда та купівля книг">Оренда та купівля</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<table id="mainTable" border="2" bgcolor="#f0f0f0" cellpadding="5" cellspacing="2">
+    <caption id="tableCaption" title="Таблиця з даними про книги в бібліотеці">Таблиця бібліотеки. <b><i>Книги</i></b></caption>
+
+    <colgroup id="group1" title="Група стовпців 1"></colgroup>
+
+    <thead style="background-color: #dcdcdc;" dir="ltr" align="center" charoff="2" valign="middle">
+        <tr style="font-weight: bold;" dir="ltr" align="center" char=".">
+            <th rowspan="3" colspan="1" id="col1" title="Номер" lang="uk" dir="ltr">№</th>
+            <th rowspan="3" colspan="6" id="col2" title="Дата відколи прибула книга" lang="uk" dir="ltr">Дата відколи прибула книга</th>
+            <th colspan="8" id="col3" title="Автори" lang="uk" dir="ltr">Данні</th>
+            <th rowspan="3" colspan="1" id="col4" title="Номер" lang="uk" dir="ltr">№</th>
+        </tr>
+        <tr>
+            <th rowspan="2" colspan="4" id="col5" title="Назва книги" lang="uk" dir="ltr">Назва книги</th>
+            <th colspan="4" id="col6" title="Відсоток знижки" lang="uk" dir="ltr">Відсоток знижки</th>
+        </tr>
+        <tr>
+            <th colspan="2" id="col7" title="На одиницю" lang="uk" dir="ltr">На одиницю</th>
+            <th colspan="2" id="col8" title="На партію" lang="uk" dir="ltr">На партію</th>
+        </tr>
+    </thead>
+    
+   
+   <tbody id="tbbg" dir="ltr" charoff="0" valign="middle">
+    <tr style="background-color: #f5f5f5;" dir="ltr" align="center" char=".">
+        <td rowspan="2" colspan="1" align="center" headers="col1" scope="row" abbr="Номер">1</td>
+        <td colspan="6" align="center" headers="col2" scope="col" abbr="Дата">2023-09-01</td>
+        <th rowspan="2" colspan="4" id="col9" title="Назва книги" lang="uk" dir="ltr">Мистецтво війни</th>
+        <td colspan="2" align="center" headers="col7" scope="col" abbr="На одиницю">10%</td>
+        <td colspan="2" align="center" headers="col8" scope="col" abbr="На партію">15%</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td colspan="6" align="center" headers="col2" scope="col" abbr="Дата">2023-09-01</td>
+        <td colspan="2" align="center" headers="col7" scope="col" abbr="На одиницю">10%</td>
+        <td colspan="2" align="center" headers="col8" scope="col" abbr="На партію">15%</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td rowspan="2" colspan="1" align="center" headers="col1" scope="row" abbr="Номер">2</td>
+        <td colspan="6" align="center" headers="col2" scope="col" abbr="Дата">2023-09-10</td>
+        <th rowspan="2" colspan="4" id="col10" title="Назва книги" lang="uk" dir="ltr">Гаррі Поттер і Філософський камінь</th>
+        <td colspan="2" align="center" headers="col7" scope="col" abbr="На одиницю">20%</td>
+        <td colspan="2" align="center" headers="col8" scope="col" abbr="На партію">25%</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td colspan="6" align="center" headers="col2" scope="col" abbr="Дата">2023-09-10</td>
+        <td colspan="2" align="center" headers="col7" scope="col" abbr="На одиницю">20%</td>
+        <td colspan="2" align="center" headers="col8" scope="col" abbr="На партію">25%</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td rowspan="2" colspan="1" align="center" headers="col1" scope="row" abbr="Номер">3</td>
+        <td colspan="6" align="center" headers="col2" scope="col" abbr="Дата">2023-09-15</td>
+        <th rowspan="2" colspan="4" id="col11" title="Назва книги" lang="uk" dir="ltr">1984</th>
+        <td colspan="2" align="center" headers="col7" scope="col" abbr="На одиницю">5%</td>
+        <td colspan="2" align="center" headers="col8" scope="col" abbr="На партію">10%</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td colspan="6" align="center" headers="col2" scope="col" abbr="Дата">2023-09-15</td>
+        <td colspan="2" align="center" headers="col7" scope="col" abbr="На одиницю">5%</td>
+        <td colspan="2" align="center" headers="col8" scope="col" abbr="На партію">10%</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td rowspan="2" colspan="1" align="center" headers="col1" scope="row" abbr="Номер">4</td>
+        <td colspan="6" align="center" headers="col2" scope="col" abbr="Дата">2023-09-20</td>
+        <th rowspan="2" colspan="4" id="col12" title="Назва книги" lang="uk" dir="ltr">Великий Гетсбі</th>
+        <td colspan="2" align="center" headers="col7" scope="col" abbr="На одиницю">15%</td>
+        <td colspan="2" align="center" headers="col8" scope="col" abbr="На партію">20%</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td colspan="6" align="center" headers="col2" scope="col" abbr="Дата">2023-09-20</td>
+        <td colspan="2" align="center" headers="col7" scope="col" abbr="На одиницю">15%</td>
+        <td colspan="2" align="center" headers="col8" scope="col" abbr="На партію">20%</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td colspan="1" align="center" headers="col1" scope="row" abbr="Номер">6</td>
+        <td colspan="6" align="center" headers="col2" scope="col" abbr="Дата">2023-09-25</td>
+        <th colspan="4" id="col13" title="Назва книги" lang="uk" dir="ltr">Тінь вітру</th>
+        <td colspan="2" align="center" headers="col7" scope="col" abbr="На одиницю">10%</td>
+        <td colspan="2" align="center" headers="col8" scope="col" abbr="На партію">15%</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td colspan="15">Всього книг</td>
+        <td>256</td>
+    </tr>
+    </tbody>
+</table>
+<footer>
+    <pre>
+Контактний телефон: +38 (044) 123-45-67
+Електронна пошта: info@booklibrary.com
+Графік роботи: Пн-Пт 9:00 - 18:00
+    </pre>
+    <address lang="uk" class="company-address">
+        вул. Книжкова, 25, Київ, Україна.
+    </address>
+    <marquee scrolldelay="100" truespeed="true" vspace="10" hspace="20" width="100%">
+        Дякуємо за ваш візит до нашої бібліотеки!
+    </marquee>
+</footer>
+</body>
+</html>
